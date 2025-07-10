@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="portfolio-card">
+        <!-- Left Panel - About Me -->
+        <div class="about-panel">
+            <img src="About-image.jpeg" alt="Profile Image" class="profile-img">
+            <h1 class="name">Kreativeweb</h1>
+            <p class="title">Web Developer & Designer</p>
+            <p class="bio">I create beautiful, functional websites with a focus on user experience and clean code. Passionate about turning ideas into digital reality.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <!-- Right Panel - Content -->
+        <div class="content-panel">
+            <!-- Navigation -->
+            <nav class="nav">
+                <a href="#skills" class="nav-link active" data-section="skills">Skills</a>
+                <a href="#services" class="nav-link" data-section="services">Services</a>
+                <a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </nav>
+
+            <!-- Sections -->
+            <div id="skills" class="section active">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category slide-left">
+                        <h3>Frontend</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category slide-left" style="animation-delay: 0.1s">
+                        <h3>Backend</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Node.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>PHP</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Python</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category slide-left" style="animation-delay: 0.2s">
+                        <h3>Design</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>UI/UX</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Photoshop</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Figma</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="services" class="section">
+                <h2 class="section-title">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card slide-right">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p>Custom website development tailored to your needs using modern technologies and best practices.</p>
+                    </div>
+
+                    <div class="service-card slide-right" style="animation-delay: 0.2s">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title">Responsive Design</h3>
+                        <p>Websites that look and function perfectly on all devices, from desktop to mobile.</p>
+                    </div>
+
+                    <div class="service-card slide-right" style="animation-delay: 0.3s">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 class="service-title">SEO Optimization</h3>
+                        <p>Improve your website's visibility and ranking on search engines with proven SEO techniques.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="portfolio" class="section">
+                <h2 class="section-title">My Work</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item slide-left">
+                        <img src="E-commerce-portfolio.jpg" alt="Project 1" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">E-commerce Website</h3>
+                            <p>A fully functional online store with payment integration and admin dashboard.</p>
+                            <a href="#" class="btn" style="margin-top: 15px;">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item slide-left" style="animation-delay: 0.1s">
+                        <img src="Restaurant-portfolio.jpg" alt="Project 2" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Restaurant website</h3>
+                            <p>A clean, responsive bussiness website for a reataurant website.</p>
+                            <a href="#" class="btn" style="margin-top: 15px;">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item slide-left" style="animation-delay: 0.2s">
+                        <img src="Travel-portfolio.jpg" alt="Project 3" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Travel website</h3>
+                            <p>A user-friendly website for travel company.</p>
+                            <a href="#" class="btn" style="margin-top: 15px;">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item slide-left" style="animation-delay: 0.3s">
+                        <img src="Fitness-portfolio.jpg" alt="Project 4" class="portfolio-img">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">A sleek and fancy website for fitness company</h3>
+                            <p>Analytics dashboard with interactive charts and data visualization.</p>
+                            <a href="#" class="btn" style="margin-top: 15px;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="section">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info slide-right">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>abdulrafiuqudus90@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>(+234) 7040741253</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h3>Working Hours</h3>
+                                <p>Mon-Fri: 9am - 5pm</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form slide-right" style="animation-delay: 0.1s">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
